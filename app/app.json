@@ -1,0 +1,23 @@
+{
+  "expo": {
+    "name": "Quản lý người dùng",
+    "slug": "quanlynguoidung",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Ứng dụng cần truy cập thư viện ảnh để chọn ảnh đại diện.",
+          "cameraPermission": "Ứng dụng cần dùng camera để chụp ảnh đại diện."
+        }
+      ],
+      "expo-status-bar",
+      "expo-font"
+    ],
+    "web": {
+      "bundler": "metro"
+    }
+  }
+}

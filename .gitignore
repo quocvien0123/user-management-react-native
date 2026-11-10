@@ -1,0 +1,9 @@
+node_modules/
+.env
+.expo/
+dist/
+web-build/
+backend/uploads/*
+!backend/uploads/.gitkeep
+# File tạm của Word/Excel khi đang mở
+~$*

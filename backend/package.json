@@ -1,0 +1,23 @@
+{
+  "name": "quanlynguoidung-backend",
+  "version": "1.0.0",
+  "description": "REST API quan ly nguoi dung - Express + MongoDB",
+  "main": "server.js",
+  "scripts": {
+    "start": "node --use-system-ca server.js",
+    "dev": "nodemon --exec \"node --use-system-ca\" server.js",
+    "seed": "node --use-system-ca seed.js",
+    "export": "node --use-system-ca export.js"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.8.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
+  }
+}
